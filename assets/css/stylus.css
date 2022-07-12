@@ -1,29 +1,36 @@
-:root{
+:root {
     --azul: #3772ff;
     --branco: #ffffff;
     --rosa-botao: #fc7071;
     --cinza-fonte: #737380;
-    --cinza-fundo:#f6f6f6;
-    --cinza-input:#bcbcbc; 
-    --fundo-rodape:#36d6ad;
+    --cinza-fundo: #f6f6f6;
+    --cinza-input: #bcbcbc;
+    --fundo-rodape: #36d6ad;
+    --familia-fonte: 'Poppins';
 }
-body{
-   
+
+body {
+
     background-color: var(--azul);
     color: var(--branco);
     box-sizing: border-box;
     background-image: url(../img/Fundo.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    font-family: var(--familia-fonte);
+    font-weight: 400;
 }
-*{
-  margin: 0;
-  padding: 0;  
+
+* {
+    margin: 0;
+    padding: 0;
 }
-.header{
+
+.header {
     height: 100%;
 }
-.header__nav{
+
+.header__nav {
     display: grid;
     grid-template-columns: 25% 25% 1fr;
     justify-items: center;
@@ -31,43 +38,52 @@ body{
     height: 40px;
 }
 
-.icon{
+.icon {
     display: inline-block;
     width: 40px;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
-.nav__home{
+
+.nav__home {
     background-image: url(../img/Home.svg);
 }
-.nav__posts{
+
+.nav__posts {
     background-image: url(../img/Mensagens.svg);
 }
-.nav__user{
+
+.nav__user {
     background-image: url(../img/Usuário.svg);
     justify-self: flex-end;
 }
-.rodape{
+
+.rodape {
     text-align: center;
-    background-color: var(--fundo-rodape) ;
+    background-color: var(--fundo-rodape);
 }
-.rodape__texto{
+
+.rodape__texto {
     padding: 3rem 0;
 }
-.botao{
+
+.botao {
     color: var(--branco);
     border-radius: 6px;
     background-color: var(--rosa-botao);
-    padding: 8px 30px ;
+    padding: 8px 30px;
     text-decoration: none;
     margin-bottom: 1rem;
     display: block;
+    font-weight: 600;
 }
-main{
+
+main {
     height: 100vh;
 }
-.principal{
+
+.principal {
 
     display: flex;
     flex-direction: column;
@@ -75,17 +91,22 @@ main{
     gap: 1.5rem;
     text-align: center;
 }
-.principal__banner{
+
+.principal__banner {
     padding: 0 3.5rem;
 }
-.banner__titulo{
+
+.banner__titulo {
     margin-bottom: 1rem;
+    font-size: 26px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
 }
-.ilustracao{
-   background-image: url(../img/Ilustração.png); 
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 247px;
-   height: 312px;
-   display: relative;
+
+.ilustracao {
+    background-image: url(../img/Ilustração.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 247px;
+    height: 312px;
 }
