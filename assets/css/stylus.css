@@ -1,0 +1,12 @@
+:root{
+    --azul: #3772ff;
+    --branco: #ffffff;
+    --rosa-botao: #fc7071;
+    --cinza-fonte: #737380;
+    --cinza-fundo:#f6f6f6;
+    --cinza-input:#bcbcbc; 
+}
+body{
+    background-color: var(--azul);
+    color: var(--branco);
+}
