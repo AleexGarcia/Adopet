@@ -5,14 +5,16 @@
     --cinza-fonte: #737380;
     --cinza-fundo:#f6f6f6;
     --cinza-input:#bcbcbc; 
+    --fundo-rodape:#36d6ad;
 }
 body{
+   
     background-color: var(--azul);
     color: var(--branco);
     box-sizing: border-box;
     background-image: url(../img/Fundo.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 *{
   margin: 0;
@@ -20,7 +22,6 @@ body{
 }
 .header{
     height: 100%;
-  
 }
 .header__nav{
     display: grid;
@@ -46,4 +47,45 @@ body{
 .nav__user{
     background-image: url(../img/Usuário.svg);
     justify-self: flex-end;
+}
+.rodape{
+    text-align: center;
+    background-color: var(--fundo-rodape) ;
+}
+.rodape__texto{
+    padding: 3rem 0;
+}
+.botao{
+    color: var(--branco);
+    border-radius: 6px;
+    background-color: var(--rosa-botao);
+    padding: 8px 30px ;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    display: block;
+}
+main{
+    height: 100vh;
+}
+.principal{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+.principal__banner{
+    padding: 0 3.5rem;
+}
+.banner__titulo{
+    margin-bottom: 1rem;
+}
+.ilustracao{
+   background-image: url(../img/Ilustração.png); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 247px;
+   height: 312px;
+   display: relative;
 }
