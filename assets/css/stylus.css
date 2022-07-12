@@ -81,6 +81,10 @@ body {
 
 main {
     height: 100vh;
+    margin-top: 3rem;
+    background-image: url(../img/Fundo_main.svg);
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .principal {
