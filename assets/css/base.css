@@ -12,9 +12,16 @@
 
 body {
     box-sizing: border-box;
-    background-image: url(../img/Fundo.svg);
-    background-repeat: no-repeat;
-    background-size: 97% auto;
     font-family: var(--familia-fonte);
     font-weight: 400;
+}
+@media screen and (min-width:600px){
+    body{
+        background-size: 72% auto;
+    }
+}
+@media screen and (min-width: 1023px) {
+    body{
+        background-size: 40% auto; 
+    }
 }

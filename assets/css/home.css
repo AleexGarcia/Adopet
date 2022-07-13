@@ -5,17 +5,29 @@
 body {
     background-color: var(--branco);
     color: var(--azul);
-}
-
-.nav__user{
-    grid-column: 2 / 2;
-    display: grid;
-    justify-self: center;
-    margin-left: 2rem;
     
 }
 
+.nav__user{
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin-left: 33%;
+}
 .banner__texto{
     text-align: center;
     padding: 2rem 67px;
+}
+@media screen and (min-width:600px) {
+    .nav__user{
+        justify-self: flex-end; 
+        margin-left: 0;
+        margin-right: 2.5rem;
+    }
+}
+@media screen and (min-width:1023px) {
+    .nav__user{
+        margin-right: 10.875rem;
+        grid-column: 3 / span 1;
+    }
 }

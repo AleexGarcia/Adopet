@@ -9,7 +9,7 @@ main {
     height: 100vh;
     margin-top: 3rem;
     background: url(../img/Fundo_main.svg), url(../img/Ilustração.png) ;
-    background-position: right, 0% 105%;
+    background-position: right, 33% 105%;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, 50%;
 

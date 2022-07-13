@@ -7,6 +7,17 @@ body {
     background-color: var(--branco);
     color: var(--azul);
 }
+.imagem_patas{
+    position: absolute;
+    height: 178px;
+    width: 135px;
+    background: url(../img/Patas.png);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    right: 0;
+    z-index: 1;
+}
+
 
 main {
     height: 100vh;
@@ -21,23 +32,16 @@ main {
     padding: 0 1.5rem;
 }
 
-.nav__user{
-    grid-column: 2 / 2;
-    display: grid;
-    justify-self: flex-end;
-    background-image: url(../img/Patas.png);
-    width: 135px;
-    height: 178px;
-}
-.box__esqueci{
+.box__esqueci {
     color: var(--rosa-botao);
     font-size: 12px;
 
 }
-.box__senha{
+
+.box__senha {
     margin-bottom: 1rem;
 }
-.banner__texto{
+
+.banner__texto {
     margin: 56px 0 42px 0;
 }
-

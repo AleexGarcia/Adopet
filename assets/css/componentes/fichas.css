@@ -11,6 +11,7 @@
     align-items: center;
     background-color: var(--cinza-fundo);
     column-gap: .5rem;
+    z-index: -2;
     
 }
 .ficha__imagem{

@@ -1,23 +1,39 @@
-.header {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   
+.imagem_header{
+    position: absolute;
+    background: url(../img/Fundo.svg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 97vw;
+    height: 50%;
+    z-index: -1;
+}
+.imagem_patas{
+    position: absolute;
+    height: 31%;
+    width: 37.5%;
+    background: url(../img/Patas.png);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    right: 0;
+    z-index: 1;
+    background-size: contain;
 }
 
 .header__nav {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     height: 40px;
     padding: 3rem 0;
+    
 }
 
 .icon {
-    display: inline-block;
-    width: 40px;
+    width: 25px;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 50px ;
 }
 
 .nav__home {
@@ -31,4 +47,24 @@
 .nav__user {
     background-image: url(../img/Usuário.svg);
     display: none;
+}
+.header__logo{
+    display:none;
+}
+@media screen and (min-width: 600px){
+    .header__logo{
+        display: block;
+        height: 2rem;
+        width: auto;
+    }
+}
+@media screen  and (min-width:1023px) and (max-width:1440px) {
+    .header{
+        grid-template-columns: 33% 1fr 1fr;
+    }
+    .header__nav{
+        width: 66%;
+        justify-self: flex-end;
+    }
+    
 }

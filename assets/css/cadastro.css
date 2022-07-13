@@ -6,6 +6,7 @@
 body {
     background-color: var(--branco);
     color: var(--azul);
+
 }
 
 main {
@@ -26,15 +27,12 @@ main {
     padding: 0 1.5rem;
 }
 
-.nav__user{
-    grid-column: 2 / 2;
-    display: grid;
-    justify-self: flex-end;
-    background-image: url(../img/Patas.png);
-    width: 135px;
-    height: 178px;
-}
-
 .banner__texto:first-child {
     margin-bottom: 1rem;
+}
+@media screen and (min-width:600px) {
+   
+}
+@media screen and (min-width:1023px) {
+    
 }
