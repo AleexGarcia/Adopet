@@ -30,27 +30,27 @@
                 <p class="banner__texto">Ainda não tem cadastro?</p>
                 <p class="banner__texto">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
             </div>
-            <form>
-                <div class="input-box">
+            <form class="form">
+                <div class="form__box">
                     <label class="box__label" for="email">Email</label>
-                    <input id="email" type="text">
+                    <input class="box__input" id="email" type="text"placeholder="Escolha seu melhor email">
                 </div>
-                <div class="input-box">
+                <div class="form__box">
                     <label class="box__label" for="nome">Nome</label>
-                    <input id="nome" type="text">
+                    <input class="box__input" id="nome" type="text" placeholder="Digite seu nome completo">
                 </div>
-                <div class="input-box">
+                <div class="form__box">
                     <label class="box__label" for="senha">Senha</label>
-                    <div>
-                        <input id="senha" type="password">
-                        <div></div>
+                    <div class="box__senha">
+                        <input class="senha__input" id="senha" type="password" placeholder="Crie uma senha">
+                        <div class="senha__mostrar"></div>
                     </div>
                 </div>
-                <div class="input-box">
-                    <label class="box__label" for="senha">Confirma sua senha</label>
-                    <div>
-                        <input id="senha" type="password">
-                        <div></div>
+                <div class="form__box">
+                    <label  class="box__label" for="senha">Confirma sua senha</label>
+                    <div class="box__senha ">
+                        <input class="senha__input" id="senha" type="password" placeholder="Repita a senha criada acima">
+                        <div class="senha__mostrar"></div>
                     </div>
                 </div>
             </form>

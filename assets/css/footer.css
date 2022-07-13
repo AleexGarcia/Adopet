@@ -1,4 +1,5 @@
 .rodape {
+    color: var(--branco);
     text-align: center;
     background-color: var(--fundo-rodape);
 }
