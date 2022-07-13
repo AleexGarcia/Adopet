@@ -1,0 +1,34 @@
+@import url(reset.css);
+:root {
+    --azul: #3772ff;
+    --branco: #ffffff;
+    --rosa-botao: #fc7071;
+    --cinza-fonte: #737380;
+    --cinza-fundo: #f6f6f6;
+    --cinza-input: #bcbcbc;
+    --fundo-rodape: #36d6ad;
+    --familia-fonte: 'Poppins';
+}
+
+body {
+
+    background-color: var(--azul);
+    color: var(--branco);
+    box-sizing: border-box;
+    background-image: url(../img/Fundo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: var(--familia-fonte);
+    font-weight: 400;
+}
+
+.botao {
+    color: var(--branco);
+    border-radius: 6px;
+    background-color: var(--rosa-botao);
+    padding: 8px 30px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: 600;
+}

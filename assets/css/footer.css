@@ -1,0 +1,8 @@
+.rodape {
+    text-align: center;
+    background-color: var(--fundo-rodape);
+}
+
+.rodape__texto {
+    padding: 3rem 0;
+}

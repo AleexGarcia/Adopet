@@ -1,0 +1,37 @@
+@import url(../css/footer.css);
+@import url(../css/header.css);
+
+main {
+    height: 100vh;
+    margin-top: 3rem;
+    background-image: url(../img/Fundo_main.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.principal {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.principal__banner {
+    padding: 0 3.5rem;
+}
+
+.banner__titulo {
+    margin-bottom: 1rem;
+    font-size: 26px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+}
+
+.ilustracao {
+    background-image: url(../img/Ilustração.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 247px;
+    height: 312px;
+}

@@ -1,0 +1,32 @@
+.header {
+    height: 100%;
+}
+
+.header__nav {
+    display: grid;
+    grid-template-columns: 25% 25% 1fr;
+    justify-items: center;
+    padding: 2rem;
+    height: 40px;
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav__home {
+    background-image: url(../img/Home.svg);
+}
+
+.nav__posts {
+    background-image: url(../img/Mensagens.svg);
+}
+
+.nav__user {
+    background-image: url(../img/Usuário.svg);
+    justify-self: flex-end;
+}
