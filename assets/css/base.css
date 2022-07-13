@@ -12,8 +12,6 @@
 
 body {
 
-    background-color: var(--azul);
-    color: var(--branco);
     box-sizing: border-box;
     background-image: url(../img/Fundo.svg);
     background-repeat: no-repeat;

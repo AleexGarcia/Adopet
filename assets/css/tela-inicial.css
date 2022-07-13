@@ -1,6 +1,9 @@
 @import url(../css/footer.css);
 @import url(../css/header.css);
-
+body{
+    background-color: var(--azul);
+    color: var(--branco);
+}
 main {
     height: 100vh;
     margin-top: 3rem;
