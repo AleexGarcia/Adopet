@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <title>Adopet | Cadastro</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <span class="icon nav__home" aria-label="Home"></span>
+            <span class="icon nav__posts" aria-label="Mensagens"></span>
+        </nav>
+        <span class="icon nav__user" aria-label="Usuário"></span>
+    </header>
+    <main class="main">
+        <section class="principal">
+            <img src="./assets/img/Logo-azul.png" alt="Logo da Adopet">
+            <p class="banner__texto">Já tem conta? Faça seu login:</p>
+            <form class="form">
+                <div class="form__box">
+                    <label class="box__label" for="email">Email</label>
+                    <input class="box__input" id="email" type="text" placeholder="Escolha seu melhor email">
+                </div>
+                <div class="form__box">
+                    <label class="box__label" for="senha">Senha</label>
+                    <div class="box__senha">
+                        <input class="senha__input" id="senha" type="password" placeholder="Crie uma senha">
+                        <div class="senha__mostrar"></div>
+                    </div>
+                    <a class="box__esqueci" href="#">Esqueci minha senha</a>
+                </div>
+                <button href="#" class="botao">Entrar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+
+</html>

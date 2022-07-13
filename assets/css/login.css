@@ -1,0 +1,43 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(componentes/input.css);
+@import url(componentes/botao.css);
+
+body {
+    background-color: var(--branco);
+    color: var(--azul);
+}
+
+main {
+    height: 100vh;
+    background-image: url(../img/Fundo-Main-Cadastro.svg);
+    background-size: 20% auto;
+    background-position: 0% 90%;
+    background-repeat: no-repeat;
+}
+
+.principal {
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.nav__user{
+    grid-column: 2 / 2;
+    display: grid;
+    justify-self: flex-end;
+    background-image: url(../img/Patas.png);
+    width: 135px;
+    height: 178px;
+}
+.box__esqueci{
+    color: var(--rosa-botao);
+    font-size: 12px;
+
+}
+.box__senha{
+    margin-bottom: 1rem;
+}
+.banner__texto{
+    margin: 56px 0 42px 0;
+}
+
