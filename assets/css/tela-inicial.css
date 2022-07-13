@@ -1,5 +1,6 @@
 @import url(../css/footer.css);
 @import url(../css/header.css);
+@import url(../css/componentes/botao.css);
 body{
     background-color: var(--azul);
     color: var(--branco);
