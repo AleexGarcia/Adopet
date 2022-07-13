@@ -1,12 +1,13 @@
 .header {
-    height: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 }
 
 .header__nav {
-    display: grid;
-    grid-template-columns: 25% 25% 1fr;
-    justify-items: center;
-    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
     height: 40px;
 }
 
@@ -29,4 +30,5 @@
 .nav__user {
     background-image: url(../img/Usuário.svg);
     justify-self: flex-end;
+    display: none;
 }
