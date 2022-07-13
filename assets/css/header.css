@@ -1,14 +1,15 @@
 .header {
    display: grid;
    grid-template-columns: 1fr 1fr;
+   
 }
 
 .header__nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 2rem 0;
     height: 40px;
+    padding: 3rem 0;
 }
 
 .icon {
@@ -29,6 +30,5 @@
 
 .nav__user {
     background-image: url(../img/Usuário.svg);
-    justify-self: flex-end;
     display: none;
 }
