@@ -59,6 +59,9 @@
     display:none;
 }
 @media screen and (min-width: 600px){
+    .header{
+        margin-bottom: 6rem;
+    }
     .header__nav{
         padding: 3rem 2rem;
         justify-content: space-between;
@@ -76,16 +79,22 @@
     }
     .imagem_header{
         width: 72vw;
-        height: 62%;
+
     }
 }
 @media screen  and (min-width:1023px) and (max-width:1440px) {
+  
     .header__nav{
+        height: 56px;
         padding: 3rem 9%;
     }
     .imagem_header{
         width: 560px;
-        height: 42%;
+        height: 470px;
+     
+    }
+    .nav__user{
+        height: 56px;
     }
     
     

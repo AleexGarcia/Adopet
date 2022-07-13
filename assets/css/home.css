@@ -18,8 +18,18 @@ body {
     padding: 2rem 67px;
 }
 @media screen and (min-width:600px) {
-    
+    .banner__texto{
+        padding: 0;
+    }
+    .banner__texto-mod{
+        margin: .5rem;
+        display: block;
+        
+    }
 }
 @media screen and (min-width:1023px) {
-  
+    .banner__texto-mod{
+        
+        display: inline;
+    }
 }
