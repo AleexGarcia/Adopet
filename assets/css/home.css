@@ -1,0 +1,21 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(./componentes/fichas.css);
+
+body {
+    background-color: var(--branco);
+    color: var(--azul);
+}
+
+.nav__user{
+    grid-column: 2 / 2;
+    display: grid;
+    justify-self: center;
+    margin-left: 2rem;
+    
+}
+
+.banner__texto{
+    text-align: center;
+    padding: 2rem 67px;
+}

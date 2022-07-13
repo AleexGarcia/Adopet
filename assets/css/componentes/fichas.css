@@ -1,0 +1,49 @@
+.pets__lista{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.pets__ficha{
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    background-color: var(--cinza-fundo);
+    column-gap: .5rem;
+    
+}
+.ficha__imagem{
+    grid-row: 1 / span 2;
+    grid-column: 1 / 1;
+}
+.ficha__nome{
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+.ficha__caracteristica{
+    font-size: 14px;
+    color: var(--cinza-fonte);
+}
+.ficha__cidade{
+    font-size: 12px;
+    color: var(--cinza-fonte);
+    margin-bottom: 7px;
+}
+.contato__texto{
+    font-size: 10px;
+    color: var(--cinza-fonte);
+}
+.contato{
+    display: flex;
+    align-items: center;
+}
+.contato__icon{
+    background-image: url(../../img/icone-mensagem.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+    margin-right: .5rem;
+}
