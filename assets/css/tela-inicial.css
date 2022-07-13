@@ -8,9 +8,11 @@ body{
 main {
     height: 100vh;
     margin-top: 3rem;
-    background-image: url(../img/Fundo_main.svg);
-    background-position: right;
-    background-repeat: no-repeat;
+    background: url(../img/Fundo_main.svg), url(../img/Ilustração.png) ;
+    background-position: right, 0% 105%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, 50%;
+
 }
 .principal {
 
@@ -30,12 +32,4 @@ main {
     font-size: 26px;
     font-family: 'IBM Plex Sans';
     font-weight: 500;
-}
-
-.ilustracao {
-    background-image: url(../img/Ilustração.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 247px;
-    height: 312px;
 }
