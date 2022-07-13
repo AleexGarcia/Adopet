@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size:contain;
     width: 97vw;
-    height: 50%;
+    height: 100%;
     z-index: -1;
 }
 .imagem_patas{
@@ -23,48 +23,70 @@
 .header__nav {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 40px;
     padding: 3rem 0;
     
 }
+.header__nav div{
+    display: flex;
+    align-items: center;
+}
 
 .icon {
+    display: block;
     width: 25px;
-    height: 100%;
+    height: 40px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 50px ;
 }
 
 .nav__home {
     background-image: url(../img/Home.svg);
+    margin-right: 50px;
 }
 
 .nav__posts {
     background-image: url(../img/Mensagens.svg);
+    
 }
 
 .nav__user {
     background-image: url(../img/Usuário.svg);
     display: none;
 }
-.header__logo{
+.nav__logo{
     display:none;
 }
 @media screen and (min-width: 600px){
-    .header__logo{
+    .header__nav{
+        padding: 3rem 2rem;
+        justify-content: space-between;
+    }
+    .nav__logo{
         display: block;
-        height: 2rem;
-        width: auto;
+        height: 32px;
+        width: 128px;
+    }
+    .nav__home{
+        margin: 0 65px;
+    }
+    .nav__user{
+        height: 48px;
+    }
+    .imagem_header{
+        width: 72vw;
+        height: 62%;
     }
 }
 @media screen  and (min-width:1023px) and (max-width:1440px) {
-    .header{
-        grid-template-columns: 33% 1fr 1fr;
-    }
     .header__nav{
-        width: 66%;
-        justify-self: flex-end;
+        padding: 3rem 9%;
     }
+    .imagem_header{
+        width: 560px;
+        height: 42%;
+    }
+    
     
 }
