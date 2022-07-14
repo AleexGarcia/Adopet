@@ -5,11 +5,14 @@
 body {
     background-color: var(--branco);
     color: var(--azul);
-    
+    background: url(../img/Fundo-Main-Cadastro.svg) no-repeat, url(../img/Patas.png) no-repeat, url(../img/Fundo.svg) no-repeat;
+    background-size: 20%, 33%, 97%;
+    background-position: 0% 70%, 100% 0%, 0% 0%;
+
 }
 
 .nav__user{
-    display: block;
+    visibility: visible;
     height: 40px;
     width: 40px;
 }
@@ -20,6 +23,7 @@ body {
 @media screen and (min-width:600px) {
     .banner__texto{
         padding: 0;
+        font-size: 18px;
     }
     .banner__texto-mod{
         margin: .5rem;
@@ -32,4 +36,5 @@ body {
         
         display: inline;
     }
+   
 }

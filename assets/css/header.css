@@ -19,15 +19,24 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.icon:hover{
+    cursor: pointer;
+    
+}
 
 .nav__home {
     background-image: url(../img/Home.svg);
     margin-right: 50px;
 }
+.nav__home:hover{
+    background-image: url(../img/Casa-hover.svg);
+}
 
 .nav__posts {
     background-image: url(../img/Mensagens.svg);
-    
+}
+.nav__posts:hover{
+    background-image: url(../img/Mensagens-hover.svg);
 }
 
 .nav__user {

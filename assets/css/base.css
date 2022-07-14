@@ -23,6 +23,11 @@ body {
 }
 @media screen and (min-width: 1023px) {
     body{
-        background-size: 40% auto; 
+        background-size: 50% auto; 
+    }
+}
+@media screen and (min-width: 1200px) and (max-width:1440px) {
+    body{
+        background-size: 45% auto; 
     }
 }

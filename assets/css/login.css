@@ -5,31 +5,19 @@
 
 body {
     background-color: var(--branco);
+    background: url(../img/Fundo-Main-Cadastro.svg) no-repeat, url(../img/Patas.png) no-repeat, url(../img/Fundo.svg) no-repeat;
+    background-size: 20%, 33%, 97%;
+    background-position: 0% 70%, 100% 0%, 0% 0%;
     color: var(--azul);
-}
-.imagem_patas{
-    position: absolute;
-    height: 178px;
-    width: 135px;
-    background: url(../img/Patas.png);
-    background-position: 100% 0%;
-    background-repeat: no-repeat;
-    right: 0;
-    z-index: 1;
-}
 
-
-main {
-    height: 100vh;
-    background-image: url(../img/Fundo-Main-Cadastro.svg);
-    background-size: 20% auto;
-    background-position: 0% 90%;
-    background-repeat: no-repeat;
 }
-
+.principal__imagem{
+    width: 142px;
+}
 .principal {
     text-align: center;
     padding: 0 1.5rem;
+    margin-bottom: 105px;
 }
 
 .box__esqueci {
@@ -44,4 +32,32 @@ main {
 
 .banner__texto {
     margin: 56px 0 42px 0;
+}
+@media screen and (min-width:600px) {
+    body {
+        background: url(../img/Patas.png) no-repeat , url(../img/Fundo-main-tablet.svg) no-repeat, url(../img/Fundo.svg) no-repeat;
+        background-size: 27%, 15%, 72%;
+        background-position: 100% 0%, 100% 63%, 0% 0%;
+    }
+    .principal{
+        margin-bottom: 185px;
+    }
+    .principal__imagem{
+        width: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 1023px) {
+    body {
+       
+        background-size: 20%, 13%, 50%;
+        
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1440px) {
+    body {
+        background-size: 20%, 9%, 45%;
+    }
 }
