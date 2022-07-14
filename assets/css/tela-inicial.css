@@ -33,3 +33,8 @@ main {
     font-family: 'IBM Plex Sans';
     font-weight: 500;
 }
+@media screen and (min-width:767px) {
+    main{
+        background-size: 10%, 30%;  
+    }
+}
